@@ -15,6 +15,12 @@ variable "aws_account_name" {
   default = "aws-account"
 }
 
+variable "aws_access_key" {
+}
+
+variable "aws_secret_key" {
+}
+
 variable "aws_transit_instance_size" {
   default = "t2.micro"
 }
